@@ -19,7 +19,7 @@
 ##############################################################################
 
 {
-    'name': 'new',
+    'name': 'new_16',
     'version': '16.0.0.0.0',
     'category': 'Project',
     'summary': "Customization for new",
