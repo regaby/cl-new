@@ -141,7 +141,8 @@
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
-        'odoo regaby/odoo-ce:16.0',
+        # 'odoo regaby/odoo-ce:16.0',
+        'odoo jobiols/odoo-jeo:16.0',
         'postgres postgres:10.1-alpine',
     ]
 }
