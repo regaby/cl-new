@@ -77,7 +77,7 @@
 
         # Comma-separated list of server-wide modules, there are modules loaded
         # automatically even if you do not create any database.
-                'server_wide_modules = "base,web,dbfilter_from_header"',
+                # 'server_wide_modules = "base,web,dbfilter_from_header"',
 
         # Filter listed database REGEXP
                 'dbfilter =',
@@ -141,8 +141,8 @@
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
-        # 'odoo regaby/odoo-ce:16.0',
-        'odoo jobiols/odoo-jeo:16.0',
+        'odoo regaby/odoo-ce:16.0',
+        # 'odoo jobiols/odoo-jeo:16.0',
         'postgres postgres:10.1-alpine',
     ]
 }
